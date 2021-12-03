@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fraction Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="main">
+    <div class="main-heading">
+    <a href="index.html"><img src="home_icon.png" class = "home_icon"></a>
+  
+    <h1>Fraction Calculator</h1>
+    <h2></h2>
+    </div>
+    <div id="parent">
+    <p class="explain">
+      This is the fraction calculator. Enter the numerator and denominator of the first fraction in the two boxes above, then select the operation you want, and put the second numerator and denominator in the two boxes below. Then click submit and it will show you the answer.<br><br>This calculator can do addition,subtraction,multiplication and division of fractions. Multiplication is really easy, just multiply the numerator and denominator. Division is also easy by just multiplying the first fraction by the recropical of the second fraction. Addition and subtraction are much more complicated with lcm.<br><br>An example is (3/4)*(5/6)=5/8</p>
+    </p>
+    <div class="input-box">
+     <a href="index.html" class="home"></a>
+    <input type="number" min=1 id="num1">
+    ------------------------------------
+    <input type="number" min=1 id="den1">
+
+    <select id="symbol">
+        <option>+</option>
+        <option>-</option>
+        <option>x</option>
+        <option>/</option>
+
+    </select>
+    <input type="number" min=1 id="num2">
+    ------------------------------------
+    <input type="number" min=1 id="den2">
+
+    <button id="submit">Calculate</button>
+    <p id="answer"></p>
+    </div>
+    </div>
+    </div>
+    
+    
+      <script src="../JSFiles/fraction.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,80 @@
+.main{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+a,input,button,select{
+    display:flex;
+    /* justify-content:center; */
+    text-align:center;
+    margin-top:15px;
+    text-decoration:none;
+    font-size:2rem;
+}
+.explain{
+    /* display:flex; */
+    /* justify-content:center; */
+    /* text-align:center; */
+    
+    text-decoration:none;
+    font-size:1.75rem;
+    width:80%;
+}
+.main-heading{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;;
+}
+#answer{
+    font-size:200%;
+}
+/* p{
+    margin-left:500px;
+    margin-right:500px;
+    font-size:170%
+
+} */
+h1{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    text-decoration:none;
+    font-size:500%;
+
+}
+a:hover{
+    color:#444;
+    text-decoration:underline;
+}
+a{
+    color:blue;
+    text-decoration:none;
+}
+.home_icon{
+    height: 60%;
+    width:60%;
+}
+/* .h1-heading{
+    margin-right:15%;
+} */
+ .input-box{
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    margin-top:6%;
+ 
+}
+.btn{
+    margin-top:15px;
+    margin-right:50px;
+    margin-left:100px
+}
+/* .result{
+    display:flex;
+} */
+
+#parent{
+    display: flex;
+    column-gap: 100px;
+}

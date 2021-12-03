@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+    <div class="main-heading">
+    <a href="index.html"><img src="home_icon.png" class = "home_icon"></a>
+    
+    <h1>Simple Calculator</h1>
+    <h2></h2>
+    </div>
+    <div id="parent">
+    <p class="explain">This is the simple calculator. If you want to just some simple calculations, this the calculator for you. <br><br>Put your first number in the first slot. Put your second number in the second slot. Then click on the + sign and select what calculation you want to do. Then click the = sign and it will show the answer.<br><br> For example 45/3=15</p>
+    <div class="input-box">
+    <form>
+        <input type='number' id="number1">
+        <select id="symbol">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="x">x</option>
+            <option value="/">/</option>
+            <option value='power'>to the power</option>
+          </select>
+        <input type='number' id="number2">
+        <button id="submitCalc" >=</button>
+        <p id='answer'></p>
+      </div>
+    
+
+
+    </form>
+    </div>
+    </div>
+    
+  </div>
+    <script src="../JSFiles/simplecalc.js"></script>
+
+  </body>
+</html>
